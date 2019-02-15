@@ -9,6 +9,7 @@
             "hash": "8fac999a58e336b42e5d5ad64596955009df70bf7a6cf1143c6d2bdb609cb056"
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\\migrate.windows-amd64.exe\" | Rename-Item -NewName \"$dir\\migrate.exe\"",
     "bin": "migrate.exe",
     "checkver": "github",
     "autoupdate": {
