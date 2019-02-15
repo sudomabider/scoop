@@ -1,0 +1,24 @@
+{
+    "homepage": "https://github.com/golang-migrate/migrate",
+    "description": "Database migrations. CLI and Golang library.",
+    "license": "MIT",
+    "version": "4.2.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.2.4/migrate.windows-amd64.exe.tar.gz",
+            "hash": "8fac999a58e336b42e5d5ad64596955009df70bf7a6cf1143c6d2bdb609cb056"
+        }
+    },
+    "bin": "migrate.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-amd64.exe.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
+        }
+    }
+}
