@@ -11,6 +11,7 @@
             "url": "https://github.com/phar-io/phive/releases/download/0.12.4/phive-0.12.4.phar"
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\\phive-$version.phar\" | Rename-Item -NewName \"$dir\\phive.phar\"",
     "bin": "phive.phar",
     "checkver": "github",
     "autoupdate": {
