@@ -12,7 +12,7 @@
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\phive-$version.phar\" | Rename-Item -NewName \"$dir\\phive.phar\"",
-    "bin": "phive.phar",
+    "bin": "phive.ps1",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
