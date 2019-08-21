@@ -13,7 +13,7 @@
     },
     "pre_install": [
         "Get-ChildItem \"$dir\\phive-$version.phar\" | Rename-Item -NewName \"$dir\\phive.phar\"",
-        "echo '& php (join-path $psscriptroot \"phive.phar\") @args' | out-file \"$dir\\phive.ps1\" -append"
+        "echo '& php (join-path $psscriptroot \"phive.phar\") @args' | out-file \"$dir\\phive.ps1\""
     ],
     "bin": "phive.ps1",
     "checkver": "github",
