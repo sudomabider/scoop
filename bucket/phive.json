@@ -11,7 +11,10 @@
             "url": "https://github.com/phar-io/phive/releases/download/0.12.4/phive-0.12.4.phar"
         }
     },
-    "pre_install": "Get-ChildItem \"$dir\\phive-$version.phar\" | Rename-Item -NewName \"$dir\\phive.phar\"",
+    "pre_install": [
+        "Get-ChildItem \"$dir\\phive-$version.phar\" | Rename-Item -NewName \"$dir\\phive.phar\"",
+        "echo '& php (join-path $psscriptroot \"phive.phar\") @args' | out-file \"$dir\\phive.ps1\" -append"
+    ],
     "bin": "phive.ps1",
     "checkver": "github",
     "autoupdate": {
