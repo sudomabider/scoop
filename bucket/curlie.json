@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/rs/curlie/releases/download/v1.2.0/curlie_1.2.0_windows_amd64.tar.gz",
-            "hash": "1ade174a920a132682591c13c5277bf2a94c14f9140a7f5c051d2c9b4578578f  "
+            "hash": "1ade174a920a132682591c13c5277bf2a94c14f9140a7f5c051d2c9b4578578f"
         }
     },
     "bin": "curlie.exe",
