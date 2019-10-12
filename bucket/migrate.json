@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/golang-migrate/migrate/releases/download/v4.6.2/migrate.windows-amd64.exe.tar.gz",
-            "hash": "b3b27128e1dfc7437b06e01e418897e962de9ec760503ff95b883a088045e228"
+            "hash": "8960dd207a19384baa4cdbc07869cbd1b0a8b460b58b9232a5f6be2440e9a5b4"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\migrate.windows-amd64.exe\" | Rename-Item -NewName \"$dir\\migrate.exe\"",
