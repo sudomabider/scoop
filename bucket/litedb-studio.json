@@ -9,7 +9,7 @@
       "hash": "B84E31D4DCD4E040E0EDE48F0C98B148EC237719E7D8DCF58B7A852B9A972DD1"
     }
   },
-  "bin": "elm-format.exe",
+  "bin": "litedb-studio.exe",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
